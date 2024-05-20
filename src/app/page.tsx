@@ -17,6 +17,7 @@ export default function Home() {
 />
         <Hero/>
         <Grid/>
+        <div className="h-screen"></div>
       </div>
     </main>
   );
