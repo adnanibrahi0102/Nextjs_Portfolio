@@ -28,9 +28,9 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <h1 className="uppercase tracking-widest text-center text-blue-200 max-w-80">Eat Sleep code repeat</h1>
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
+    
           <TextGenerateEffect className="text-center text-[40px] md:text-6xl lg:text-8xl" words="Transforming ideas into Seamless User Experiences" />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">Hi, I'm Adnan Ibrahim, a Software Developer based in Kashmir</p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">Hi, I&apos;m Adnan Ibrahim, a Software Developer based in Kashmir</p>
           <div className="flex flex-row gap-2">
             <a href="#about">
               <MagicButton title="My Work" />
