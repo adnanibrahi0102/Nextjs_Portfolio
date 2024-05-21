@@ -113,7 +113,7 @@ export const BentoGridItem = ({
               {["React.js", "Next.js", "Node.js", "Express.js", "MongoDb"].map(
                 (stack) => (
                   <span
-                    className="p-2 border border-blue-800  text-xs lg:text-base opacity-30 lg:opacity-100 rounded-xl mb-[0.2] text-center"
+                    className="p-2 border border-purple  text-xs lg:text-base opacity-30 lg:opacity-100 rounded-xl mb-[0.2] text-center"
                     key={stack}
                   >
                     {stack}

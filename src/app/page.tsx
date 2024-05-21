@@ -1,5 +1,6 @@
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 import { FloatingNav } from "@/components/ui/FloatingNavBar";
 import {  FaInfoCircle, FaProjectDiagram, FaCommentDots, FaEnvelope } from 'react-icons/fa';
 
@@ -17,7 +18,7 @@ export default function Home() {
 />
         <Hero/>
         <Grid/>
-        <div className="h-screen"></div>
+        <Projects/>
       </div>
     </main>
   );
