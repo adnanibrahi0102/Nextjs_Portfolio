@@ -30,7 +30,7 @@ const Hero = () => {
           <h1 className="uppercase tracking-widest text-center text-blue-200 max-w-80">Eat Sleep code repeat</h1>
     
           <TextGenerateEffect className="text-center text-[40px] md:text-6xl lg:text-8xl" words="Transforming ideas into Seamless User Experiences" />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">Hi, I am Adnan Ibrahim, a Software Developer based in Kashmir</p>
+          <p className="text-center md:tracking-wider mb-4 font-bold text-base md:text-lg lg:text-2xl">Hi, I'm Adnan Ibrahim, a Software Developer based in Kashmir</p>
           <div className="flex flex-row gap-2">
             <a href="#about">
               <MagicButton title="My Work" />
