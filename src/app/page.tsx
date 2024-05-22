@@ -12,7 +12,7 @@ export default function Home() {
   navItems={[
     { name: "About", link: "#about", icon: <FaInfoCircle /> },
     { name: "Projects", link: "#projects", icon: <FaProjectDiagram /> },
-    { name: "Testimonials", link: "#testimonials", icon: <FaCommentDots /> },
+    { name: "Blogs", link: "#blogs", icon: <FaCommentDots /> },
     { name: "Contact", link: "#contact", icon: <FaEnvelope /> }
   ]}
 />

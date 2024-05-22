@@ -59,12 +59,12 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Connect via Socials",
+      title: "",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
+      imgClassName: "w-60 ",
       titleClassName: "justify-center md:max-w-full max-w-60 ",
-      img: "",
+      img: "/adnan.png",
       spareImg: "",
     },
     {
