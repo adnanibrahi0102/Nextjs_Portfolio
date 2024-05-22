@@ -2,6 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
+import { FlipWordsDemo } from "./Words";
 
 const Hero = () => {
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
           <h1 className="uppercase tracking-widest text-center text-blue-200 max-w-80">Eat Sleep code repeat</h1>
     
           <TextGenerateEffect className="text-center text-[40px] md:text-6xl lg:text-8xl" words="Transforming ideas into Seamless User Experiences" />
-          <p className="text-center md:tracking-wider mb-4 font-bold text-base md:text-lg lg:text-2xl">Hi, I'm Adnan Ibrahim, a Software Developer based in Kashmir</p>
+          <div className="text-center line-clamp-1 md:tracking-wider mb-4 font-bold text-base md:text-lg lg:text-2xl"> <FlipWordsDemo/> </div>
           <div className="flex flex-row gap-2">
             <a href="#about">
               <MagicButton title="My Work" />
@@ -38,6 +39,7 @@ const Hero = () => {
             <a href="">
               <MagicButton title="Download CV" />
             </a>
+            {/* <FlipWordsDemo/> */}
           </div>
         </div>
       </div>
