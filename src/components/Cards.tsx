@@ -10,7 +10,7 @@ export function InfiniteMovingCardsDemo() {
     
   }
   const [blogs, setBlogs] = useState<Blog[]>([]);
-  const [error, setError] = useState<string | null>(null);
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -56,16 +56,14 @@ export function InfiniteMovingCardsDemo() {
         setBlogs(posts);
       } catch (error) {
         console.error('Error fetching data:', error);
-        setError(error.message);
+        
       }
     };
 
     fetchData();
   }, []);
 
-  if (error) {
-    return <p>Error: {error}</p>;
-  }
+  
 
   return (
     <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
