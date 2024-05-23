@@ -26,7 +26,7 @@ export function InfiniteMovingCardsDemo() {
           publication(host: "adnancodes01.hashnode.dev/") {
             isTeam
             title
-            posts(first: 10) {
+            posts(first: 50) {
               edges {
                 node {
                   title
