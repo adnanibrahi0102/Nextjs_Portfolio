@@ -1,8 +1,12 @@
+
+import { InfiniteMovingCardsDemo } from "@/components/Cards";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
+
 import { FloatingNav } from "@/components/ui/FloatingNavBar";
 import {  FaInfoCircle, FaProjectDiagram, FaCommentDots, FaEnvelope } from 'react-icons/fa';
+
 
 export default function Home() {
   return (
@@ -19,6 +23,10 @@ export default function Home() {
         <Hero/>
         <Grid/>
         <Projects/>
+       <InfiniteMovingCardsDemo/>
+       
+        
+        
       </div>
     </main>
   );

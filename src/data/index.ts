@@ -83,7 +83,7 @@ export const navItems = [
     {
       id: 1,
       title: "Blog web Application",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      des: "A modern and responsive blog web application to share your thoughts and ideas. Built with React, Tailwind CSS, and Appwrite.",
       img: "https://img.freepik.com/free-photo/toy-bricks-table_144627-48267.jpg?w=740&t=st=1716290108~exp=1716290708~hmac=54295cd4000d9b077c6aa8eeaa4d0bd6e586ed8074e941da95cd280f252c1eb1",
       iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/appwrite.svg", ],
       link: "https://blog-app-gray-five.vercel.app/",
@@ -91,28 +91,29 @@ export const navItems = [
     {
       id: 2,
       title: "Ecommerce - FashionFusion",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "An innovative ecommerce platform for fashion enthusiasts, offering a seamless shopping experience with the latest trends.",
       img: "https://img.freepik.com/free-vector/fashion-sale-landing-page_23-2148609266.jpg?t=st=1716290389~exp=1716293989~hmac=04cb363dfaf7c1c65ea500a9cff525359b52649a838bfb025270f28d8128fa59&w=740",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://fashionfusion-delta.vercel.app/",
     },
     {
       id: 3,
       title: "Notes -NoteNove",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      des: "A comprehensive fullstack note-taking app with user authentication and use TinyMCE rich text editor, designed for productivity.",
       img: "https://img.freepik.com/free-photo/top-view-desk-concept-with-blank-clipboard_23-2148226928.jpg?t=st=1716290662~exp=1716294262~hmac=6c34fbe20c97b623e2cfbb833732f13c87eacb3575393ddca7ac1b6df885bcaa&w=740",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://wondrous-alfajores-941300.netlify.app/",
     },
     {
       id: 4,
       title: "Custom Youtube",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      des: "A custom implementation of YouTube backend with advanced features MongoDb aggregation pipelines",
       img: "https://img.freepik.com/free-vector/modern-flat-style-clean-white-video-player-template_1017-25482.jpg?t=st=1716290778~exp=1716294378~hmac=97eec209109aeca488ff31cb9c3570fd0df5427f863405adad33abc37e9e7e8b&w=740",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/adnanibrahi0102/Backend-2.0",
     },
-  ];
+];
+
   
   export const testimonials = [
     {
