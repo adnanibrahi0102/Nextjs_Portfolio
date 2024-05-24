@@ -1,5 +1,6 @@
 
-import { InfiniteMovingCardsDemo } from "@/components/Cards";
+
+import Blogs from "@/components/Blogs";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
@@ -23,7 +24,8 @@ export default function Home() {
         <Hero/>
         <Grid/>
         <Projects/>
-       <InfiniteMovingCardsDemo/>
+       <Blogs/>
+      
        
         
         
