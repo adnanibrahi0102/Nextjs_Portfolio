@@ -74,7 +74,7 @@ const Blogs = () => {
   return (
     <div className='flex flex-wrap justify-center items-center gap-4' id='blogs'>
       {blogs.map((blog, index) => (
-        <BackgroundGradient key={index} className="rounded-[22px] flex flex-col items-center justify-center w-96 h-[400px]  p-4 sm:p-10 bg-white dark:bg-zinc-900">
+        <BackgroundGradient key={index} className="rounded-[22px] flex flex-col items-center justify-center w-[300px] h-[400px]  p-4 sm:p-10 bg-white dark:bg-zinc-900">
           <img
             src={blog.coverImage.url}
             alt={blog.title}
