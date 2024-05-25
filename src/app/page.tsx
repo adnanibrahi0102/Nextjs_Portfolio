@@ -1,6 +1,7 @@
 
 
 import Blogs from "@/components/Blogs";
+import Contact from "@/components/Contact";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
@@ -25,6 +26,7 @@ export default function Home() {
         <Grid/>
         <Projects/>
        <Blogs/>
+       <Contact/>
       
        
         
