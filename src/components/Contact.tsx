@@ -9,15 +9,15 @@ const Contact = () => {
         <span className='text-purple'>Me</span>
       </h1>
       <div className="flex  justify-center items-center mt-5">
-        <a href="https://www.instagram.com/your_instagram_handle" target="_blank" rel="noopener noreferrer" className="mr-4">
+        <a href="https://www.instagram.com/iadnanibrahim/" target="_blank" rel="noopener noreferrer" className="mr-4">
           <FaInstagram size={32} />
           <span className="ml-1">Instagram</span>
         </a>
-        <a href="https://www.linkedin.com/in/your_linkedin_profile" target="_blank" rel="noopener noreferrer" className="mr-4">
+        <a href="https://www.linkedin.com/in/adnan-ibrahim-37a274222/" target="_blank" rel="noopener noreferrer" className="mr-4">
           <FaLinkedin size={32} />
           <span className="ml-1">LinkedIn</span>
         </a>
-        <a href="mailto:your@email.com" className="mr-4">
+        <a href="adnanibrahi96@gmail.com" className="mr-4">
           <FaEnvelope size={32} />
           <span className="ml-1">Mail</span>
         </a>

@@ -41,7 +41,7 @@ const Hero = () => {
             <a href="">
               <Shimmer title="Download CV"/>
             </a>
-            {/* <FlipWordsDemo/> */}
+           
           </div>
         </div>
       </div>

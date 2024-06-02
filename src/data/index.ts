@@ -93,7 +93,7 @@ export const navItems = [
       title: "Ecommerce - FashionFusion",
       des: "An innovative ecommerce platform for fashion enthusiasts, offering a seamless shopping experience with the latest trends.",
       img: "https://img.freepik.com/free-vector/fashion-sale-landing-page_23-2148609266.jpg?t=st=1716290389~exp=1716293989~hmac=04cb363dfaf7c1c65ea500a9cff525359b52649a838bfb025270f28d8128fa59&w=740",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/expressjs.svg" , "/mongodb.svg" ,"/nodejs.svg"],
       link: "https://fashionfusion-delta.vercel.app/",
     },
     {
@@ -101,7 +101,7 @@ export const navItems = [
       title: "Notes -NoteNove",
       des: "A comprehensive fullstack note-taking app with user authentication and use TinyMCE rich text editor, designed for productivity.",
       img: "https://img.freepik.com/free-photo/top-view-desk-concept-with-blank-clipboard_23-2148226928.jpg?t=st=1716290662~exp=1716294262~hmac=6c34fbe20c97b623e2cfbb833732f13c87eacb3575393ddca7ac1b6df885bcaa&w=740",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/re.svg", "/tail.svg", "/javascript.svg","/mongodb.svg" , "/expressjs.svg" ,"/nodejs.svg"],
       link: "https://wondrous-alfajores-941300.netlify.app/",
     },
     {
@@ -109,7 +109,7 @@ export const navItems = [
       title: "Custom Youtube",
       des: "A custom implementation of YouTube backend with advanced features MongoDb aggregation pipelines",
       img: "https://img.freepik.com/free-vector/modern-flat-style-clean-white-video-player-template_1017-25482.jpg?t=st=1716290778~exp=1716294378~hmac=97eec209109aeca488ff31cb9c3570fd0df5427f863405adad33abc37e9e7e8b&w=740",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: [ "/javascript.svg", "/expressjs.svg" ,"/mongodb.svg","/nodejs.svg"],
       link: "https://github.com/adnanibrahi0102/Backend-2.0",
     },
 ];
