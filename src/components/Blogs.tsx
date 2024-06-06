@@ -1,10 +1,12 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import { BackgroundGradient } from "../components/ui/background-gradient";
+import React, { useState, useEffect, Suspense ,lazy} from "react";
 import { IconAppWindow } from "@tabler/icons-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { url } from "inspector";
+
+
+const Loading = lazy(()=>  import ("../components/Loading"));
+const BackgroundGradient = lazy(() => import("../components/ui/background-gradient").then(module => ({ default: module.BackgroundGradient })));
 
 const Blogs = () => {
   const router = useRouter();
@@ -82,16 +84,10 @@ const Blogs = () => {
     fetchData();
   }, []);
 
-  if(loading){
-    return   <div className="wrapper ">
-    <div className="circle"></div>
-    <div className="circle"></div>
-    <div className="circle"></div>
-    <div className="shadow"></div>
-    <div className="shadow"></div>
-    <div className="shadow"></div>
-  </div>
+  if (loading) {
+    return <Loading />;
   }
+
 
   if (error) {
     return <p className="text-center text-red-500 text-xl">oops!! something went wrong</p>;
@@ -109,18 +105,20 @@ const Blogs = () => {
       id="blogs"
 
     >
+      <Suspense fallback = {<Loading/>}>
      
       {blogs.map((blog, index) => (
         <BackgroundGradient
           key={index}
           className="rounded-[22px] flex flex-col items-center justify-center w-[300px] h-[400px] sm:h-[500px]  p-4 sm:p-10 bg-white dark:bg-zinc-900"
         >
-          <img
+          <Image
             src={blog.coverImage.url}
             alt={blog.title}
             height="200"
             width="200"
             className="object-contain mt-4 rounded-lg"
+            loading="lazy"
           />
           <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
             {blog.title}
@@ -136,6 +134,7 @@ const Blogs = () => {
           </button>
         </BackgroundGradient>
       ))}
+      </Suspense>
     </div>
     </>
   );
